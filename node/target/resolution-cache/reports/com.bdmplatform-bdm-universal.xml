@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.bdmplatform"
+		module="bdm"
+		revision="20200201T191103"
+		conf="universal"
+		confs="compile, runtime, test, provided, optional, protobuf, universal, universal-docs, universal-src, windows, linux, docker, debian, rpm, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
+		date="20200201131114"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

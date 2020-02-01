@@ -1,0 +1,16 @@
+checkPRRaw
+packageAll
+cleanAll
+root
+it
+benchmark
+node$minusgenerator
+node$minusit
+grpc$minusserver
+node
+langDoc
+langTests
+lang$minustestkit
+langJS
+langJVM
+lang

@@ -1,0 +1,9 @@
+syntax = "proto3";
+package bdm;
+option java_package = "com.bdmplatform.protobuf";
+option csharp_namespace = "Bdm";
+
+message Amount {
+    bytes asset_id = 1;
+    int64 amount = 2;
+};

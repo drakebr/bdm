@@ -1,0 +1,21 @@
+[Unit]
+Description=Bdm node
+Requires=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/default/bdm
+ExecStart=/usr/share/bdm/bin/bdm \
+  -Dlogback.file.directory=/var/log/bdm \
+  -Dlogback.pattern="%%-5level %%logger{26} - %%msg%%n" \
+  -- /etc/bdm/bdm.conf
+Restart=always
+RestartSec=60
+RestartPreventExitStatus=10 38 61 74 128
+SuccessExitStatus=143
+User=bdm
+PermissionsStartOnly=true
+TimeoutStopSec=90
+
+[Install]
+WantedBy=multi-user.target

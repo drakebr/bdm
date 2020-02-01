@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/lang/testkit/src/main/scala/com/bdmplatform/lang/Common.scala:11:43: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.lang.v1.evaluator.{Contextful, EvaluatorV1}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

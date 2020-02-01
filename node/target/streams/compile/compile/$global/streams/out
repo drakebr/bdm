@@ -1,0 +1,349 @@
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:22:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.state.ByteStr[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:25:52: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.toByteArray[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:26:53: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:26:68: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:26:81: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:26:92: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:31:52: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.toByteArray[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:32:53: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:32:68: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:32:81: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:32:92: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:34:44: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:35:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.state._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:36:44: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:39:28: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.google.protobuf.ByteString[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:40:57: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.account.{Address, AddressScheme, PublicKey}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:41:36: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.lang.script.ScriptReader[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:42:33: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.protobuf.Amount[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:43:64: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.protobuf.transaction.Transaction._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:44:57: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.protobuf.transaction.Transaction._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:45:57: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.protobuf.transaction.Transaction.Data[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:46:64: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.protobuf.transaction.Transaction.Data[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:47:46: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.protobuf.transaction.{Script => PBScript}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:48:38: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.serialization.Deser[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:49:31: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.state.{BinaryDataEntry, BooleanDataEntry, IntegerDataEntry, StringDataEntry}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:49:48: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.state.{BinaryDataEntry, BooleanDataEntry, IntegerDataEntry, StringDataEntry}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:49:66: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.state.{BinaryDataEntry, BooleanDataEntry, IntegerDataEntry, StringDataEntry}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:49:84: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.state.{BinaryDataEntry, BooleanDataEntry, IntegerDataEntry, StringDataEntry}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:50:43: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.Asset.{IssuedAsset, Bdm}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:50:56: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.Asset.{IssuedAsset, Bdm}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:51:45: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.transfer.MassTransferTransaction[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:52:69: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.transfer.MassTransferTransaction.ParsedTransfer[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:53:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.{Proofs, TxValidationError}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:53:45: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.{Proofs, TxValidationError}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:54:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.utils.EitherExt2[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:58:44: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:59:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.state._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/Application.scala:60:44: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/consensus/GeneratingBalanceProvider.scala:6:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.state.ByteStr[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:90:30: value Address is not a member of object com.bdmplatform.protobuf.transaction.Recipient.Recipient[0m
+[0m[[0m[31merror[0m] [0m[0m    case Recipient.Recipient.Address(bytes) => toAddress(bytes.toByteArray)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:100:21: value isAddress is not a member of com.bdmplatform.protobuf.transaction.Recipient.Recipient[0m
+[0m[[0m[31merror[0m] [0m[0m    if (r.recipient.isAddress) toAddress(r)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:5:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.state.ByteStr[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:12:33: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.account.{AddressScheme, PublicKey}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:13:39: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.protobuf.order.AssetPair[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:14:53: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.assets.exchange.{OrderV1, OrderV2}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:14:62: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.assets.exchange.{OrderV1, OrderV2}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:15:60: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.transaction.assets.exchange.{OrderV1, OrderV2}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:15:69: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.transaction.assets.exchange.{OrderV1, OrderV2}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:16:25: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.{transaction => vt}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:20:40: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.account.{Address, AddressScheme}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:20:49: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.account.{Address, AddressScheme}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:23:52: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.toByteArray[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:24:53: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:24:68: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:24:81: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:24:92: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:26:44: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:27:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.state._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:28:44: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:32:33: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.account.{Address, AddressScheme, PublicKey}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:32:42: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.account.{Address, AddressScheme, PublicKey}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:33:36: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.lang.script.ScriptReader[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:34:33: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.protobuf.Amount[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:35:64: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.protobuf.transaction.Transaction._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:36:57: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.protobuf.transaction.Transaction._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:37:57: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.protobuf.transaction.Transaction.Data[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:38:64: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.protobuf.transaction.Transaction.Data[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:39:46: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.protobuf.transaction.{Script => PBScript}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:40:38: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.serialization.Deser[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:41:31: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.state.{BinaryDataEntry, BooleanDataEntry, IntegerDataEntry, StringDataEntry}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:41:48: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.state.{BinaryDataEntry, BooleanDataEntry, IntegerDataEntry, StringDataEntry}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:41:66: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.state.{BinaryDataEntry, BooleanDataEntry, IntegerDataEntry, StringDataEntry}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:41:84: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.state.{BinaryDataEntry, BooleanDataEntry, IntegerDataEntry, StringDataEntry}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:42:43: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.Asset.{IssuedAsset, Bdm}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:42:56: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.Asset.{IssuedAsset, Bdm}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:43:45: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.transfer.MassTransferTransaction[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:44:69: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.transfer.MassTransferTransaction.ParsedTransfer[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:45:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.{Proofs, TxValidationError}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:45:45: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.transaction.{Proofs, TxValidationError}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:46:37: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.utils.EitherExt2[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:57:81: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBRecipients.scala:57:92: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:39:52: imported `toByteArray' is permanently hidden by definition of method toByteArray in object PBTransactions[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.toByteArray[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:40:45: imported `toByteArray' is permanently hidden by definition of method toByteArray in object PBTransactions[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.state.ByteStr.toByteArray[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:41:68: imported `toByteArray' is permanently hidden by definition of method toByteArray in object PBTransactions[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:152:28: value toByteArray is not a member of Option[com.bdmplatform.protobuf.transaction.Attachment][0m
+[0m[[0m[31merror[0m] [0m[0m                attachment.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:168:28: value toByteArray is not a member of Option[com.bdmplatform.protobuf.transaction.Attachment][0m
+[0m[[0m[31merror[0m] [0m[0m                attachment.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:200:20: value toByteArray is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m              name.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:201:27: value toByteArray is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m              description.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:213:20: value toByteArray is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m              name.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:214:27: value toByteArray is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m              description.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:332:25: value toByteArray is not a member of Option[com.bdmplatform.protobuf.transaction.Attachment][0m
+[0m[[0m[31merror[0m] [0m[0m          mt.attachment.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:409:26: value toByteArray is not a member of Option[com.bdmplatform.protobuf.transaction.Attachment][0m
+[0m[[0m[31merror[0m] [0m[0m              attachment.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:422:26: value toByteArray is not a member of Option[com.bdmplatform.protobuf.transaction.Attachment][0m
+[0m[[0m[31merror[0m] [0m[0m              attachment.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:459:20: value toByteArray is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m              name.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:460:27: value toByteArray is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m              description.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:472:20: value toByteArray is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m              name.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:473:27: value toByteArray is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m              description.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:586:25: value toByteArray is not a member of Option[com.bdmplatform.protobuf.transaction.Attachment][0m
+[0m[[0m[31merror[0m] [0m[0m          mt.attachment.toByteArray,[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:619:74: value getAddress is not a member of com.bdmplatform.protobuf.transaction.Recipient[0m
+[0m[[0m[31merror[0m] [0m[0m        val data = GenesisTransactionData(PBRecipients.create(recipient).getAddress, amount)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:630:74: value getAddress is not a member of com.bdmplatform.protobuf.transaction.Recipient[0m
+[0m[[0m[31merror[0m] [0m[0m        val data = PaymentTransactionData(PBRecipients.create(recipient).getAddress, amount)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:635:105: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.google.protobuf.ByteString[0m
+[0m[[0m[31merror[0m] [0m[0m required: Option[com.bdmplatform.protobuf.transaction.Attachment][0m
+[0m[[0m[31merror[0m] [0m[0m        val data = TransferTransactionData(Some(recipient), Some((assetId, amount)), ByteString.copyFrom(attachment))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:656:48: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.bdmplatform.common.state.ByteStr[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m        val data = IssueTransactionData(ByteStr(name), ByteStr(description), quantity, decimals, reissuable, script.map(s => PBScript(s.bytes())))[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:656:63: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.bdmplatform.common.state.ByteStr[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m        val data = IssueTransactionData(ByteStr(name), ByteStr(description), quantity, decimals, reissuable, script.map(s => PBScript(s.bytes())))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:690:21: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.bdmplatform.common.state.ByteStr[0m
+[0m[[0m[31merror[0m] [0m[0m required: Option[com.bdmplatform.protobuf.transaction.Attachment][0m
+[0m[[0m[31merror[0m] [0m[0m          attachment: ByteStr[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:26:52: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.toByteArray[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:27:45: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.common.state.ByteStr.toByteArray[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:28:53: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:28:68: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:28:81: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:28:92: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:41:81: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/node/src/main/scala/com/bdmplatform/protobuf/transaction/PBTransactions.scala:41:92: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport _root_.com.bdmplatform.common.state.ByteStr.{fromByteArray, toByteArray, fromBytes, fromLong}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m91 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m22 errors found[0m

@@ -1,0 +1,9 @@
+syntax = "proto3";
+package bdm;
+option java_package = "com.bdmplatform.protobuf.transaction";
+option csharp_namespace = "Bdm";
+
+message Script {
+    bytes bytes = 1;
+    int32 version = 2;
+}

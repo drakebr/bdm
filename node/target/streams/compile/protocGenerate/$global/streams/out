@@ -1,0 +1,12 @@
+[0m[[0m[0minfo[0m] [0m[0mCompiling 8 protobuf files to /root/BDM117/node/target/src_managed/main[0m
+[0m[[0m[0mdebug[0m] [0m[0mprotoc options:[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/node/target/protobuf_external/bdm/amount.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/node/target/protobuf_external/bdm/transaction.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/node/target/protobuf_external/bdm/recipient.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/node/src/main/protobuf/bdm/api.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/node/target/protobuf_external/bdm/invoke_script_result.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/node/target/protobuf_external/bdm/order.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/node/target/protobuf_external/bdm/block.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/node/target/protobuf_external/bdm/script.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling protobuf[0m
+[0m[[0m[0minfo[0m] [0m[0mProtoc target directory: /root/BDM117/node/target/src_managed/main[0m

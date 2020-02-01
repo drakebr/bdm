@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0mCompiling 5 protobuf files to /root/BDM117/grpc-server/target/src_managed/main[0m
+[0m[[0m[0mdebug[0m] [0m[0mprotoc options:[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/grpc-server/target/protobuf_external/bdm/node/grpc/blocks_api.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/grpc-server/target/protobuf_external/bdm/node/grpc/transactions_api.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/grpc-server/target/protobuf_external/bdm/node/grpc/assets_api.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/grpc-server/target/protobuf_external/bdm/node/grpc/blockchain_api.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/grpc-server/target/protobuf_external/bdm/node/grpc/accounts_api.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling protobuf[0m
+[0m[[0m[0minfo[0m] [0m[0mProtoc target directory: /root/BDM117/grpc-server/target/src_managed/main[0m

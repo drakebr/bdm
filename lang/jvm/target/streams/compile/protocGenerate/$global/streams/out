@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 protobuf files to /root/BDM117/lang/jvm/target/src_managed/main[0m
+[0m[[0m[0mdebug[0m] [0m[0mprotoc options:[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /root/BDM117/lang/shared/src/main/protobuf/DAppMeta.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling protobuf[0m
+[0m[[0m[0minfo[0m] [0m[0mProtoc target directory: /root/BDM117/lang/jvm/target/src_managed/main[0m

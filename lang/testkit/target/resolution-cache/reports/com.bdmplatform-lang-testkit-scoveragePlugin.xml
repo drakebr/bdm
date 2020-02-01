@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.bdmplatform"
+		module="lang-testkit"
+		revision="20200201T191103"
+		conf="scoveragePlugin"
+		confs="compile, runtime, test, provided, optional, protobuf, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
+		date="20200201131110"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

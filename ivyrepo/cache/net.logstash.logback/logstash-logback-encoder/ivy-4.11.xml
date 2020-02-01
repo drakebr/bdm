@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="net.logstash.logback"
+		module="logstash-logback-encoder"
+		revision="4.11"
+		status="release"
+		publication="20170624143307"
+	>
+		<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0" />
+		<license name="MIT License" url="http://www.slf4j.org/license.html" />
+		<description homepage="https://github.com/logstash/logstash-logback-encoder">
+		Logback encoder which will output events as Logstash-compatible JSON
+		</description>
+		<m:properties__org.codehaus.mojo.animal-sniffer.version>1.15</m:properties__org.codehaus.mojo.animal-sniffer.version>
+		<m:properties__commons.lang.version>2.6</m:properties__commons.lang.version>
+		<m:properties__commons.io.version>2.4</m:properties__commons.io.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__junit.version>4.12</m:properties__junit.version>
+		<m:properties__org.powermock.version>1.6.5</m:properties__org.powermock.version>
+		<m:properties__com.fasterxml.uuid.version>3.1.4</m:properties__com.fasterxml.uuid.version>
+		<m:properties__org.mockito.version>1.10.19</m:properties__org.mockito.version>
+		<m:properties__com.lmax.disruptor.version>3.3.4</m:properties__com.lmax.disruptor.version>
+		<m:properties__com.fasterxml.jackson.version>2.8.9</m:properties__com.fasterxml.jackson.version>
+		<m:properties__ch.qos.logback.version>1.2.3</m:properties__ch.qos.logback.version>
+		<e:sbtTransformHash>fe519e80c2a54e50a449b4a8f9a9b0ef19c89fc9</e:sbtTransformHash>
+		<m:properties__org.assertj.version>2.4.0</m:properties__org.assertj.version>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|null__maven-compiler-plugin__2.3.2|null__maven-enforcer-plugin__1.4|org.codehaus.mojo__animal-sniffer-maven-plugin__1.15|null__maven-release-plugin__null|com.mycila.maven-license-plugin__maven-license-plugin__1.9.0|null__maven-source-plugin__2.1.2|null__maven-jar-plugin__2.4|null__maven-shade-plugin__null|org.apache.felix__maven-bundle-plugin__2.3.7</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="logstash-logback-encoder" type="jar" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="ch.qos.logback" name="logback-core" rev="1.2.3" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.2.3" force="true" conf="optional->compile(*),master(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-access" rev="1.2.3" force="true" conf="optional->compile(*),master(compile)"/>
+		<dependency org="javax.servlet" name="servlet-api" rev="2.5" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.8.9" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="org.codehaus.mojo" name="animal-sniffer-annotations" rev="1.15" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="junit" name="junit" rev="4.12" force="true" conf="test->runtime(*),master(compile)">
+			<exclude org="org.hamcrest" module="hamcrest-core" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.assertj" name="assertj-core" rev="2.4.0" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.mockito" name="mockito-core" rev="1.10.19" force="true" conf="test->runtime(*),master(compile)">
+			<exclude org="org.objenesis" module="objenesis" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.hamcrest" module="hamcrest-core" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.powermock" name="powermock-module-junit4" rev="1.6.5" force="true" conf="test->runtime(*),master(compile)">
+			<exclude org="org.powermock" module="powermock-module-junit4-common" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.powermock" name="powermock-core" rev="1.6.5" force="true" conf="test->runtime(*),master(compile)">
+			<exclude org="org.powermock" module="powermock-reflect" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.javassist" module="javassist" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.powermock" name="powermock-api-mockito" rev="1.6.5" force="true" conf="test->runtime(*),master(compile)">
+			<exclude org="org.powermock" module="powermock-api-mockito-common" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.hamcrest" module="hamcrest-core" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="commons-io" name="commons-io" rev="2.4" force="true" conf="test->runtime(*),master(compile)"/>
+	</dependencies>
+</ivy-module>

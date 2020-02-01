@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.bdmplatform"
+		module="lang_sjs0.6_2.12"
+		revision="20200201T191103"
+		status="integration"
+		publication="20200201131105"
+	>
+		<license name="MIT" url="https://github.com/bdmplatform/Bdm/blob/master/LICENSE" />
+		<description>
+		lang
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="protobuf" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="phantom-js-jetty" visibility="private" description=""/>
+		<conf name="scoveragePlugin" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="lang_sjs0.6_2.12" type="pom" ext="pom" conf="pom"/>
+		<artifact name="lang_sjs0.6_2.12" type="jar" ext="jar" conf="compile"/>
+		<artifact name="lang_sjs0.6_2.12" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+		<artifact name="lang_sjs0.6_2.12" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.9" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.9" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-websocket" rev="8.1.16.v20140903" conf="phantom-js-jetty->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-server" rev="8.1.16.v20140903" conf="phantom-js-jetty->default(compile)"/>
+		<dependency org="org.scala-js" name="scalajs-compiler_2.12.9" rev="0.6.31" conf="plugin->default(compile)"/>
+		<dependency org="org.scala-js" name="scalajs-library_2.12" rev="0.6.31" conf="compile->default(compile)"/>
+		<dependency org="org.scala-js" name="scalajs-test-bridge_2.12" rev="0.6.31" conf="test->default(compile)"/>
+		<dependency org="com.thesamet.scalapb" name="scalapb-runtime_sjs0.6_2.12" rev="0.8.4" conf="compile->default(compile);protobuf->default(compile)"/>
+		<dependency org="io.monix" name="monix-eval_sjs0.6_2.12" rev="3.1.0" conf="compile->default(compile)">
+			<exclude org="org.typelevel" module="cats-effect_sjs0.6_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.scala-js" module="scalajs-library_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.typelevel" name="cats-core_sjs0.6_2.12" rev="2.0.0" conf="compile->default(compile)">
+			<exclude org="org.scala-js" module="scalajs-library_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.rudogma" name="supertagged_sjs0.6_2.12" rev="1.4" conf="compile->default(compile)">
+			<exclude org="org.scala-js" module="scalajs-library_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="com.lihaoyi" name="fastparse_sjs0.6_2.12" rev="1.0.0" conf="compile->default(compile)">
+			<exclude org="org.scala-js" module="scalajs-library_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="com.chuusai" name="shapeless_sjs0.6_2.12" rev="2.3.3" conf="compile->default(compile)">
+			<exclude org="org.scala-js" module="scalajs-library_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.typelevel" name="machinist_2.12" rev="0.6.6" conf="compile->default(compile)">
+			<exclude org="org.scala-js" module="scalajs-library_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.typelevel" name="cats-effect_sjs0.6_2.12" rev="2.0.0" conf="compile->default(compile)">
+			<exclude org="org.typelevel" module="cats-core_sjs0.6_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.typelevel" name="cats-mtl-core_2.12" rev="0.4.0" conf="compile->default(compile)">
+			<exclude org="org.scalacheck" module="scalacheck_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="ch.obermuhlner" name="big-math" rev="2.1.0" conf="compile->default(compile)"/>
+		<dependency org="org.scorexfoundation" name="scrypto_2.12" rev="2.0.4" conf="compile->default(compile)"/>
+		<dependency org="org.bykn" name="fastparse-cats-core_2.12" rev="0.1.0" conf="compile->default(compile)">
+			<exclude org="org.scalatest" module="scalatest_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.scalacheck" module="scalacheck_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.typelevel" module="cats-testkit_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.59" conf="compile->default(compile)"/>
+		<dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.59" conf="compile->default(compile)"/>
+		<dependency org="org.spire-math" name="kind-projector_2.12" rev="0.9.6" conf="plugin->default(compile)"/>
+		<dependency org="com.olegpy" name="better-monadic-for_2.12" rev="0.3.0-M4" conf="plugin->default(compile)"/>
+		<dependency org="com.softwaremill.sttp" name="core_sjs0.6_2.12" rev="1.6.4" conf="compile->default(compile)"/>
+		<dependency org="com.thesamet.scalapb" name="scalapb-json4s_2.12" rev="0.7.0" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-core_sjs0.6_2.12" rev="0.12.0-RC4" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-generic_sjs0.6_2.12" rev="0.12.0-RC4" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-parser_sjs0.6_2.12" rev="0.12.0-RC4" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.6" conf="test->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.2.3" conf="test->default(compile)"/>
+		<dependency org="org.scalacheck" name="scalacheck_2.12" rev="1.14.0" conf="test->default(compile)"/>
+		<dependency org="io.github.amrhassan" name="scalacheck-cats_2.12" rev="0.4.0" conf="test->default(compile)">
+			<exclude org="org.scalacheck" module="scalacheck_2.12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.mockito" name="mockito-all" rev="1.10.19" conf="test->default(compile)"/>
+		<dependency org="org.scalamock" name="scalamock-scalatest-support_2.12" rev="3.6.0" conf="test->default(compile)"/>
+		<dependency org="io.circe" name="not-java-time_sjs0.6_2.12" rev="0.2.0" conf="compile->default(compile)"/>
+		<override org="com.typesafe.akka" module="akka-actor_2.12" matcher="exact" rev="2.5.20"/>
+		<override org="com.typesafe.akka" module="akka-stream_2.12" matcher="exact" rev="2.5.20"/>
+		<override org="com.typesafe.akka" module="akka-http_2.12" matcher="exact" rev="10.1.8"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-scala_2.12" matcher="exact" rev="2.9.8"/>
+		<override org="org.scalatest" module="scalatest_2.12" matcher="exact" rev="3.0.6"/>
+		<override org="com.google.guava" module="guava" matcher="exact" rev="27.0.1-jre"/>
+		<override org="org.slf4j" module="slf4j-api" matcher="exact" rev="1.7.25"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-core" matcher="exact" rev="2.9.8"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-annotations" matcher="exact" rev="2.9.8"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-databind" matcher="exact" rev="2.9.8"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-yaml" matcher="exact" rev="2.9.8"/>
+		<override org="com.fasterxml.jackson.jaxrs" module="jackson-jaxrs-base" matcher="exact" rev="2.9.8"/>
+		<override org="com.fasterxml.jackson.jaxrs" module="jackson-jaxrs-json-provider" matcher="exact" rev="2.9.8"/>
+		<override org="io.kamon" module="kamon-core_2.12" matcher="exact" rev="1.1.6"/>
+		<override org="com.typesafe" module="config" matcher="exact" rev="1.3.3"/>
+		<override org="org.typelevel" module="machinist_2.12" matcher="exact" rev="0.6.6"/>
+		<override org="com.squareup.okhttp3" module="okhttp" matcher="exact" rev="3.11.0"/>
+		<override org="com.squareup.okio" module="okio" matcher="exact" rev="1.14.0"/>
+		<override org="com.lihaoyi" module="sourcecode_2.12" matcher="exact" rev="0.1.4"/>
+		<override org="io.netty" module="netty-handler" matcher="exact" rev="4.1.33.Final"/>
+		<override org="org.bouncycastle" module="bcpkix-jdk15on" matcher="exact" rev="1.59"/>
+		<override org="org.bouncycastle" module="bcprov-jdk15on" matcher="exact" rev="1.59"/>
+		<override org="org.apache.httpcomponents" module="httpcore" matcher="exact" rev="4.4.5"/>
+		<override org="org.javassist" module="javassist" matcher="exact" rev="3.21.0-GA"/>
+		<override org="org.reactivestreams" module="reactive-streams" matcher="exact" rev="1.0.2"/>
+		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.12.9"/>
+		<override org="org.scala-lang" module="scala-reflect" matcher="exact" rev="2.12.9"/>
+		<override org="org.typelevel" module="cats-effect_2.12" matcher="exact" rev="2.0.0"/>
+		<override org="org.typelevel" module="cats-core_2.12" matcher="exact" rev="2.0.0"/>
+		<override org="org.typelevel" module="cats-kernel_2.12" matcher="exact" rev="2.0.0"/>
+		<override org="org.typelevel" module="cats-macros_2.12" matcher="exact" rev="2.0.0"/>
+		<override org="com.chuusai" module="shapeless_2.12" matcher="exact" rev="2.3.3"/>
+		<override org="org.apache.kafka" module="kafka_2.12" matcher="exact" rev="2.1.0"/>
+	</dependencies>
+</ivy-module>

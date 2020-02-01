@@ -1,0 +1,16 @@
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/lang/shared/src/main/scala/com/bdmplatform/lang/v1/BaseGlobal.scala:7:90: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.lang.contract.meta.{Chain, Dic, MetaMapper, MetaMapperStrategyV1, MetaVersion}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/lang/shared/src/main/scala/com/bdmplatform/lang/v1/BaseGlobal.scala:9:48: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.lang.directives.values.{Expression, StdLibVersion, DApp => DAppType}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/lang/shared/src/main/scala/com/bdmplatform/lang/v1/BaseGlobal.scala:13:30: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.lang.{ValidationError, utils}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/lang/shared/src/main/scala/com/bdmplatform/lang/v1/BaseGlobal.scala:13:47: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.lang.{ValidationError, utils}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/BDM117/lang/shared/src/main/scala/com/bdmplatform/lang/v1/evaluator/ctx/impl/bdm/Functions.scala:13:43: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.bdmplatform.lang.v1.evaluator.{Contextful, ContextfulNativeFunction, ContextfulUserFunction}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m

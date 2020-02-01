@@ -1,0 +1,13 @@
+syntax = "proto3";
+package bdm.api;
+option java_package = "com.bdmplatform.protobuf.api";
+option csharp_namespace = "Bdm.Api";
+
+message DataRequest {
+    repeated string keys = 1;
+    string matches = 2;
+}
+
+message TransactionsByIdRequest {
+    repeated string ids = 1;
+}

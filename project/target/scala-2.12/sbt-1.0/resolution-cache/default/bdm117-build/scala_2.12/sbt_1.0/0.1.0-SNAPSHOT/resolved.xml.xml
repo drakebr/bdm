@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="default"
+		module="bdm117-build"
+		revision="0.1.0-SNAPSHOT"
+		status="integration"
+		publication="20200201102634"
+		e:sbtVersion="1.0" e:scalaVersion="2.12"
+	>
+		<description>
+		bdm117-build
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="bdm117-build" type="pom" ext="pom" conf="pom"/>
+		<artifact name="bdm117-build" type="jar" ext="jar" conf="compile"/>
+		<artifact name="bdm117-build" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+		<artifact name="bdm117-build" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.7" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.7" conf="scala-tool->default,optional(default);provided->default(compile)"/>
+		<dependency org="org.scala-sbt" name="sbt" rev="1.2.8" conf="provided->default(compile)"/>
+		<dependency org="com.thesamet" name="sbt-protoc" rev="0.99.19" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="com.thesamet.scalapb" name="compilerplugin_2.12" rev="0.8.4" conf="compile->default(compile)"/>
+		<dependency org="com.eed3si9n" name="sbt-assembly" rev="0.14.5" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="com.typesafe.sbt" name="sbt-native-packager" rev="1.3.25" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="org.scalastyle" name="scalastyle-sbt-plugin" rev="1.0.0" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="org.scoverage" name="sbt-scoverage" rev="1.5.1" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="se.marcuslonnberg" name="sbt-docker" rev="1.4.1" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="com.typesafe.sbt" name="sbt-git" rev="1.0.0" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="org.scala-js" name="sbt-scalajs" rev="0.6.31" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="org.portable-scala" name="sbt-scalajs-crossproject" rev="0.6.0" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="org.scalameta" name="sbt-scalafmt" rev="2.2.1" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="pl.project13.scala" name="sbt-jmh" rev="0.3.3" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="com.jsuereth" name="sbt-pgp" rev="1.1.1" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="com.github.cb372" name="sbt-explicit-dependencies" rev="0.2.10" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" rev="2.9.9" conf="compile->default(compile)"/>
+		<dependency org="org.hjson" name="hjson" rev="3.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.vafer" name="jdeb" rev="1.5" conf="compile->default(compile)">
+			<artifact name="jdeb" type="jar" ext="jar" conf="*"/>
+		</dependency>
+		<override org="org.scala-sbt" module="scripted-plugin_2.12" matcher="exact" rev="1.2.8"/>
+	</dependencies>
+</ivy-module>
